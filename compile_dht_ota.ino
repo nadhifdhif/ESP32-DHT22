@@ -1,4 +1,4 @@
-#include <DHT.h>
+#include <DHT.h
 
 #define DHTPIN 9
 #define DHTTYPE DHT22
@@ -14,7 +14,7 @@ void setup() {
 
 void loop() {
   float suhu = dht.readTemperature();
-  float kelembapan = dht.readHumidity();
+  float kelembapan = dht.readHumidity()
 
   // cek apakah gagal membaca sensor
   if (isnan(suhu) || isnan(kelembapan)) {
