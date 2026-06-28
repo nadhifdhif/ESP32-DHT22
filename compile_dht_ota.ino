@@ -7,7 +7,7 @@ DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
   Serial.begin(115200);
-  Serial.println("DHT22 Sensor Start")
+  Serial.println("DHT22 Sensor Start");
 
   dht.begin();
 }
