@@ -1,4 +1,4 @@
-#include <DHT.
+#include <DHT.h.>
 
 #define DHTPIN 9
 #define DHTTYPE DHT22
@@ -7,7 +7,7 @@ DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
   Serial.begin(115200);
-  Serial.println("DHT22 Sensor Mulai")
+  Serial.println("DHT22 Sensor Mulai");
 
   dht.begin();
 }
