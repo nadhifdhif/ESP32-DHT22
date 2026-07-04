@@ -14,7 +14,7 @@ void setup() {
 
 void loop() {
   float suhu = dht.readTemperature();
-  float kelembapan = dht.readHumidity()
+  float kelembapan = dht.readHumidity();
 
   // cek apakah gagal membaca sensor
   if (isnan(suhu) || isnan(kelembapan)) {
