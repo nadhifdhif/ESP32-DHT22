@@ -29,7 +29,7 @@ void loop() {
   Serial.print(" °C");
 
   Serial.print(" | Kelembaban: ");
-  Serial.print(kelembapan)
+  Serial.print(kelembapan);
   Serial.println(" %");
 
   delay(2000);
