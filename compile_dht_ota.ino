@@ -25,11 +25,11 @@ void loop() {
 
   // tampilkan data ke Serial Monitor
   Serial.print("Suhu: ");
-  Serial.print(suhu);
+  Serial.print(Temperature);
   Serial.print(" °C");
 
   Serial.print(" | Kelembaban: ");
-  Serial.print(kelembapan);
+  Serial.print(Humidity);
   Serial.println(" %");
 
   delay(2000);
