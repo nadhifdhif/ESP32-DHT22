@@ -28,7 +28,7 @@ void loop() {
   Serial.print(Temperature);
   Serial.print(" °C");
 
-  Serial.print(" | Kelembaban: ");
+  Serial.print("Humidity: ");
   Serial.print(Humidity);
   Serial.println(" %");
 
