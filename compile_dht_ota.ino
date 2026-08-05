@@ -24,7 +24,7 @@ void loop() {
   }
 
   // tampilkan data ke Serial Monitor
-  Serial.print("Suhu: ");
+  Serial.print("Temperature: ");
   Serial.print(Temperature);
   Serial.print(" °C");
 
