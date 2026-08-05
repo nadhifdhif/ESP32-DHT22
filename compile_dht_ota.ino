@@ -17,7 +17,7 @@ void loop() {
   float kelembapan = dht.readHumidity();
 
   // cek apakah gagal membaca sensor
-  if (isnan(Temperature) || isnan(Humidity)) {
+  if (isnan(Temperatures) || isnan(Humidity)) {
     Serial.println("Gagal membaca sensor DHT22");
     delay(2000);
     return;
