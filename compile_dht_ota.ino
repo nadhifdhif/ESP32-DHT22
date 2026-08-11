@@ -18,7 +18,7 @@ void loop() {
 
   // cek apakah gagal membaca sensor
   if (isnan(Temperatures) || isnan(Humidity)) {
-    Serial.println("Gagal membaca sensor DHT22");
+    Serial.println("Gagal membaca sensor");
     delay(2000);
     return;
   }
